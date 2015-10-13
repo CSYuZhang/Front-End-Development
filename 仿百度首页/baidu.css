@@ -108,7 +108,7 @@ form #btn1{
 	border-left:1px solid #e7e7e7;
 	background:#f9f9f9;
 	z-index: 100;
-/*	display:none;*/
+	display:none;
 }
 
 #rbar ul{
@@ -119,6 +119,7 @@ form #btn1{
 #rbar li{
 	width: 100%;
 	display: block;
+	border-bottom:1px solid #f0f0f0;
 }
 .br{
 	text-decoration: none;
@@ -162,4 +163,12 @@ i{
 }
 .cat-7 i{
 	background-position: -220px 0;
+}
+#br1{
+	text-decoration: none;
+	height: 30px;
+	line-height: 30px;
+	text-decoration: none;
+	margin: 20px auto;
+	text-align: center;
 }

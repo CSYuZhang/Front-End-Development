@@ -1,6 +1,6 @@
 window.onload=function(){
-	var more_product=document.getElementById("more_product");
-	var right_bar=document.getElementById("fix");
+	var more_product=document.getElementById("navmore");
+	var right_bar=document.getElementById("rbar");
 
 	more_product.onmouseover=function(){
 		right_bar.style.display="block";
