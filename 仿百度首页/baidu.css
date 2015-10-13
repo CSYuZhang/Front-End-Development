@@ -1,0 +1,165 @@
+@charset "utf-8";
+*{margin: 0;padding: 0}
+body{
+	font:12px Arial, Helvetica,"Microsoft YaHei", sans-serif;
+	background:#fff;
+}
+ul{
+	list-style: none;
+	display: block;
+	height: 43px;
+}
+li{
+	float: right;
+}
+a{
+	height: 24px;
+	line-height: 24px;
+	margin-top: 19px;
+	margin-left: 11px;
+	margin-right: 11px;
+	color:#333;
+}
+li a{
+	display: block;
+}
+.navs1{
+	font-weight:bold;
+}
+#navmore{
+	color:#fff;
+	background:#3388ff;
+	font-weight:bold;
+	text-decoration:none;
+	padding: 0 5px;
+}
+#main1{
+	width:640px;
+	margin:0px auto;
+	text-align: center;
+}
+#logoimg{
+	width:270px;
+	height:129px;
+}
+form{
+	width: 100%;
+	margin-top:25px;
+	height: 34px;
+}
+form input{
+	float:left;
+	line-height: 34px;
+}
+form #text1{
+	width: 529px;
+	height: 22px;
+	padding: 5px;
+	border: 1px solid #3385ff;
+	border-right: 0px;
+}
+form #btn1{
+	width: 100px;
+	height: 34px;
+	border: 0px;
+	color:#fff;
+	background:#3385ff;
+	font-size:14px;
+}
+#p1{
+	padding-top:60px;
+	text-align:center;
+}
+#p1 a{
+	text-decoration:underline;
+	line-height: 15px;
+}
+#footer{
+	position: fixed;
+	bottom: 50px;
+	width: 100%;
+	text-align: center;
+}
+#footer a{
+	color: blue;
+}
+#footer p{
+	line-height: 38px;
+	color:#888;
+}
+#footer p a{
+	color:#888;
+}
+#footer p span{
+	display:inline-block;
+	width:14px;
+	height:17px;
+	margin-left:5px;
+	vertical-align:middle;
+	background:url(img/logo01.png) no-repeat 0 0;
+}
+#rbar{
+	width: 66px;
+	height: 100%;
+	top: 0;
+	right: 0;
+	position: fixed;
+	padding:0 10px;
+	border-left:1px solid #e7e7e7;
+	background:#f9f9f9;
+	z-index: 100;
+/*	display:none;*/
+}
+
+#rbar ul{
+	list-style: none;
+	width: 66px;
+	height: 100%;
+}
+#rbar li{
+	width: 100%;
+	display: block;
+}
+.br{
+	text-decoration: none;
+	height: 30px;
+	line-height: 30px;
+	text-decoration: none;
+	margin: 0 auto;
+	text-align: center;
+}
+#rbar h5{
+	height: 24px;
+    line-height: 24px;
+    margin-top: 19px;
+    text-align: center;
+}
+i{
+	background: url(img/right.png);
+	display:block;
+	width:36px;
+	height:36px;
+	margin:10px auto 6px;
+}
+.cat-1 i{
+	background-position: 0 0;
+}
+.cat-2 i{
+	background-position: -36px 0;
+}
+.cat-3 i{
+	width:40px;
+	background-position: -72px 0;
+}
+.cat-4 i{
+	background-position: -112px 0;
+}
+.cat-5 i{
+	background-position: -144px 0;
+}
+.cat-6 i{
+	background-position: -180px 0;
+}
+.cat-7 i{
+	background-position: -220px 0;
+}
